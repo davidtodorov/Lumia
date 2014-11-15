@@ -1,63 +1,57 @@
-		  body {
-				background-image: url('h/background.jpg');
-				color: white;
-				font-family: helvetica;
-		  }
-			
-			#david {
-			color:black;
-			text-align:center;
-			
-			}
-			
-			h2 {
-			color:black;
-			
-			}
-			
-			a:link {
-			color:#333333;
-			font-size:17px;
-			text-decoration:none;
-			}
-			
-			
-			a:visited{
-			color:#333333;
-			}
-			
-			a:hover {
-			color:black;
-			}
-			
-		
-			
-			
-			img {
-			opacity: 0.7;
-			}
+body {
+    background-image: url('h/background.jpg');
+    color: white;
+    font-family: helvetica;
+}
 
-			img:hover {
-				opacity: 1.0;
-			}
+#david {
+    color: dodgerblue;
+    text-align: center;
 
+}
 
+h2 {
+    color: black;
 
-			#n520 {
-				color: red;
-			}
+}
 
-			.podr {
-				color:black;
-				
-				margin: 20px;
-				float:left;
-				
-			}
-			
-			.clear {
-			clear: both;
-			}
+a:link {
+    color: #333333;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:hover {
+    color: black;
+}
+
+img {
+    opacity: 0.7;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+#n520 {
+    color: red;
+}
+
+.podr {
+    color: black;
+
+    margin: 20px;
+    float: left;
+
+}
+
+.clear {
+    clear: both;
+}
 			
 		
 			
