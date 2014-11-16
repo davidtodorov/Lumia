@@ -1,7 +1,8 @@
 body {
     background-image: url('h/background.jpg');
-    color: white;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
+    width: 87%;
 }
 
 #david {
