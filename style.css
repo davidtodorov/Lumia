@@ -44,6 +44,7 @@ table {
 
 table, td, th {
     border: 1 px solid black;
+    padding: 5px;
 }
 
 #n520 {
