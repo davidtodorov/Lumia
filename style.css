@@ -30,7 +30,7 @@ a:hover {
     color: black;
 }
 
-img {
+.low-opacity {
     opacity: 0.7;
 }
 
