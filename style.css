@@ -1,101 +1,136 @@
 body {
     background-image: url('h/background.jpg');
     font-family: 'Open Sans', sans-serif;
-    margin: 0px auto;
-    width: 87%;
+    margin:0;
+}
+.inner {
+	width: 1000px;
+	margin: 0 auto;
 }
 
-.top-bar {
-    border: 1px solid black;
-    background: #333;
+/* menu */
+
+nav {
+	background: #333;
+	width: 100%;
+	height: 55px;
+	margin-top: 0px;
+	position: relative; /* optional */
 }
 
-ul.menu {
-    padding: 0px;
+nav ul {
+	display: blcok;
+	list-style: none;
+	position:absolute;
 }
 
-ul.menu li {
-    display: inline;
+nav ul li{
+	padding-bottom:10px;
+	float:left;
 }
 
-ul.menu li a {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px 10px 0 0;
+nav ul li a{
+	background-color:black;
+	padding:15px;
+	color:white;
+	text-decoration:none;
+	border-radius: 5px 10px 0px 0px;
+	border:1px solid black;
+	transition: 0.45s ease-out;
+
 }
 
-nav h2 {
-    color: white;
-    float: right;
-    margin: -40px 10px;
+#david{
+	float:right;
+	color:white;
+	margin: 10px 5px 0px 0px;
+	transition: 0.45s ease-out;
+}
+/* end of menu */
+
+
+
+
+
+
+/* hover */
+nav ul li a:hover{
+	border: 1px solid #A7C6FF;
+	background: #333;
+	color: #A7C6FF;
 }
 
-ul.menu li a:hover {
-    background-color: #234051;
-    color: #EBFCEA;
+#david:hover{
+	color:#A7C6FF;
 }
 
-a:link {
-    color: #333333;
-    font-size: 17px;
-    text-decoration: none;
+img:hover {
+	opacity: 1.0;
+
 }
 
-a:visited {
-    color: #333333;
-}
 
+
+
+/* opacity */
 .lb-image {
     opacity: 1.0;
 }
 
 img {
-    opacity: 0.75;
+    opacity: 0.5;
+	transition: 0.45s ease-out; /* maznotiq */
+}
+.no-opacity{
+	opacity: 1.0
 }
 
-img:hover {
-    opacity: 1.0;
-}
 
-table {
-    border-collapse: collapse;
-}
 
-table, td, th {
-    border: 1px solid black;
-    padding: 5px;
-}
 
-#n520 {
-    color: red;
-}
-
+/* about section */
 .podr {
-
     margin: 20px;
     float: left;
-
 }
 
 .clear {
     clear: both;
 }
 
-.kvd {
+.section {
     height: 284px;
     width: 100%;
+	background: rgba(255, 255, 255, 0.2);
+	transition: 0.4s ease-out;
+	border: 2px solid #C5C4C4;
+	margin-bottom: 10px;
 }
 
 .hov:hover {
     border: 2px solid white;
 }
 
-section.kvd:hover {
-    background: rgba(0, 0, 0, 0.2)
+.section:hover {
+    background: rgba(0, 0, 0, 0.2);
 }
 
+
+
+
+
+
+
+
+/* table */
+table {
+	border-collapse: collapse;
+}
+
+table, td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
 @media screen and (max-width: 592px) {
     ul.menu li {
         display: blcok;
